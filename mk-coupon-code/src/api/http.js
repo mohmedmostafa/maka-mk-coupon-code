@@ -3,7 +3,7 @@ import router from '../router';
 import { useAuthStore } from '../stores/auth';
 
 const http = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'http://65.108.157.163:3000/api',
 });
 
 // Request interceptor for adding authorization token
